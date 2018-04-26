@@ -7,908 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed3ca83a-ee84-4f68-b828-4a78e9743716" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/edit_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/edit_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/mini_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/mini_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/mini_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/sum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/21_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/33_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/QRCodes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ad1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bg_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_submit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/c4_b1_bg_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/empty_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/have_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/hot_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icon_qq_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icon_star_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/21_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/21_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/cha_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_2_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_add_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_add_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_add_pro_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_del_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_li_1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_light_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/item1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/jt_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/lolo_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/lolo_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/orderList_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/ruby_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/shopcar_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/shopcar_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/sj_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/sj_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/suo_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/suo_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/下拉箭头_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jiantou_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/jiantou_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/list_p1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/logon_register.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/orderSure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/p01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/p021.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/play_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/play_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/play_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/play_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/police.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/qrcode_jprj.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/regist.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/step_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_10 - 副本.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/viewBook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/wechat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/weixin_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/weixin_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/yinlian.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/zhifubao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/C.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/C1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/CC1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/aideyishu1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/aideyishu2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/fazhi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/hadoop1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/hadoop2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/java1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/java2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/javaB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/javaCore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/javafeature.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/scala.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/spark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/weilaijianjiefeature.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/weilaijianshi1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/weilaijianshi2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/product/weilaijianshi3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Categories.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoriesExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoriesExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoriesExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoriesExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoryDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoryDetailExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoryDetailExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoryDetailExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/CategoryDetailExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Idempotency.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/IdempotencyExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/IdempotencyExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/IdempotencyExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/IdempotencyExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/OrderExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/OrderExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/OrderExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/OrderExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/OrderLine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PriceRank.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PriceRankExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PriceRankExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PriceRankExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PriceRankExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ProductExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ProductExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ProductExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ProductExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Publish.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PublishExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PublishExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PublishExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/PublishExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Receiver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReceiverExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReceiverExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReceiverExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReceiverExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/Report.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportProducts.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportProductsExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportProductsExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportProductsExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/ReportProductsExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/UserExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/UserExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/UserExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/bean/UserExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/OrderController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/SearchContoller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/ShopCartController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/SkipController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/TradeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/controller/ViewController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/CategoriesMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/CategoryDetailMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/IdempotencyMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/OrderLineMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/OrderMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/PriceRankMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/ProductMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/PublishMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/ReceiverMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/ReportMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/ReportProductsMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/dao/UserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/estoreEnum/ErrorCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/estoreEnum/OperateEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/BaseBizManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BaseManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizCreateOrderLineManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizCreateOrderManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizCreateReceiverManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizCreateUserManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizUpdateOrderLineManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizUpdateUserManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/model/BaseBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/model/BaseResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/model/CategoryModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/model/OrderLineModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/model/OrderModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/model/ReceiverResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/CategoryDetailService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/CategoryService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/OrderLineService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/OrderService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/ProductService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/PublishService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/ReceiverService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/ReportService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/CategoryDetailServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/CategoryServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/OrderLineServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/OrderServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/ProductServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/PublishServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/ReceiverServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/ReportServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/utils/AutoImage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/utils/EstoreException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/utils/IDGenerater.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/utils/MD5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/estore/utils/ReflectionUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Categories.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoriesExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoriesExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoriesExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoriesExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoryDetail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoryDetailExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoryDetailExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoryDetailExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/CategoryDetailExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Idempotency.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/IdempotencyExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/IdempotencyExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/IdempotencyExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/IdempotencyExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/OrderExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/OrderExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/OrderExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/OrderExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/OrderLine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PriceRank.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PriceRankExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PriceRankExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PriceRankExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PriceRankExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Product.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ProductExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ProductExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ProductExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ProductExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Publish.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PublishExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PublishExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PublishExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/PublishExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Receiver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReceiverExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReceiverExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReceiverExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReceiverExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/Report.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportProducts.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportProductsExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportProductsExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportProductsExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/ReportProductsExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/UserExample$Criteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/UserExample$Criterion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/UserExample$GeneratedCriteria.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/bean/UserExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/OrderController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/SearchContoller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/ShopCartController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/SkipController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/TradeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/controller/ViewController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/CategoriesMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/CategoryDetailMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/IdempotencyMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/OrderLineMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/OrderMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/PriceRankMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/ProductMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/PublishMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/ReceiverMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/ReportMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/ReportProductsMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/dao/UserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/estoreEnum/ErrorCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/estoreEnum/OperateEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/BaseBizManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BaseManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizCreateOrderLineManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizCreateOrderManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizCreateReceiverManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizCreateUserManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizUpdateOrderLineManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizUpdateUserManagerImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/model/BaseBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/model/BaseResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/model/CategoryModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/model/OrderLineModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/model/OrderModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/model/ReceiverResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/CategoryDetailService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/CategoryService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/OrderLineService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/OrderService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/ProductService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/PublishService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/ReceiverService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/ReportService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/CategoryDetailServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/CategoryServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/OrderLineServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/OrderServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/ProductServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/PublishServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/ReceiverServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/ReportServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/AutoImage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/EstoreException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/IDGenerater.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/MD5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/ReflectionUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/aspectjweaver-1.8.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/c3p0-0.9.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/classmate-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/commons-collections-3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/commons-collections4-4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/commons-lang3-3.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/commons-pool2-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/guava-21.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jackson-annotations-2.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jackson-core-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jackson-databind-2.8.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jedis-2.7.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jsqlparser-0.9.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/logback-classic-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/logback-core-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/mybatis-3.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/mybatis-spring-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/mysql-connector-java-5.1.41.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/pagehelper-5.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/protostuff-api-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/protostuff-collectionschema-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/protostuff-core-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/protostuff-runtime-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/slf4j-api-1.7.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/edit_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/edit_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/mini_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/mini_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/mini_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/sum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/21_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/33_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/QRCodes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/ad1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/bg_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/btn_submit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/buy_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/buy_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/buy_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/buy_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/c4_b1_bg_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/empty_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/have_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/hot_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icon_qq_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icon_star_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/21_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/21_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/bgPic_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/bgPic_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/bgPic_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/bgPic_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/cha_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/content_1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/content_1_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/content_1_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/content_1_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/content_2_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_10_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_10_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_10_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_10_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_10_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_1_45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_add_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_add_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_add_pro_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_del_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_li_1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/icon_light_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/item1_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/jt_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/lolo_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/lolo_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/orderList_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/ruby_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/service_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/service_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/service_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/service_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/shopcar_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/shopcar_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/sj_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/sj_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/suo_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/suo_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/icons/下拉箭头_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/jiantou_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/jiantou_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/list_p1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/logon_register.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/orderSure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/p01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/p021.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/play_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/play_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/play_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/play_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/police.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/qrcode_jprj.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/regist.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/step_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/sureLogo_10 - 副本.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/sureLogo_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/sureLogo_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/sureLogo_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/viewBook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/wechat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/weixin_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/weixin_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/yinlian.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/images/zhifubao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/C.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/C1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/CC1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/aideyishu1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/aideyishu2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/fazhi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/hadoop1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/hadoop2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/java1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/java2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/javaB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/javaCore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/javafeature.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/scala.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/spark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/weilaijianjiefeature.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/weilaijianshi1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/weilaijianshi2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/product/weilaijianshi3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/CategoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/ExceptionTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/MapperTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/MbgTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/OrderLineTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/OrderTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/ProductServiceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/ReportServiceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/UserServiceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/javaTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/estore_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/estore_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estore.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Categories.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/CategoriesExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/CategoryDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/CategoryDetailExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Idempotency.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/IdempotencyExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/OrderExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/OrderLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/PriceRank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/PriceRankExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/ProductExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Publish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/PublishExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Receiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/ReceiverExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/Report.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/ReportExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/ReportProducts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/ReportProductsExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/bean/UserExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/OrderController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/SearchContoller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/ShopCartController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/SkipController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/TradeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/controller/ViewController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/CategoriesMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/CategoryDetailMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/IdempotencyMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/OrderLineMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/OrderMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/PriceRankMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/ProductMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/PublishMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/ReceiverMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/ReportMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/ReportProductsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/dao/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/estoreEnum/ErrorCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/estoreEnum/OperateEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/BaseBizManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BaseManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderLineManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateReceiverManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateUserManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizUpdateOrderLineManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizUpdateUserManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/model/BaseBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/model/BaseResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/model/CategoryModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/model/OrderLineModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/model/OrderModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/model/ReceiverResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/CategoryDetailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/CategoryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/OrderLineService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/OrderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/PublishService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/ReceiverService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/ReportService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/CategoryDetailServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/CategoryServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/OrderLineServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/OrderServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/ProductServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/PublishServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/ReceiverServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/ReportServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/utils/AutoImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/utils/EstoreException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/utils/IDGenerater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/utils/MD5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/utils/ReflectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoriesMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/IdempotencyMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderLineMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PriceRankMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PublishMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReceiverMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReportMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReportProductsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mbg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis_config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Payfor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/PayforCommit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/confirm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/emptyCar.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/forgetPassword.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/forgetPassword1.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/forgetPassword2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/forgetPassword3.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indexSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listBook.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopCart.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/up.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userinfo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewBook.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/apply.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/easyUI/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/emptyCar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/fullCar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/newmain.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/order.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/orderSure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/dtd/mybatis-3-config.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/dtd/mybatis-3-mapper.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/ShopCart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/viewBook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/user/userinfo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/dao/MapperTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/dao/MbgTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/CategoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/OrderLineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/OrderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/ProductServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/ReportServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/UserServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/service/javaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/utils/ExceptionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/CategoriesMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/IdempotencyMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/OrderLineMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/PriceRankMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/ProductMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/PublishMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/ReceiverMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/ReportMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/ReportProductsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mbg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis_config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/CategoriesMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/CategoryDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/IdempotencyMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/OrderLineMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/OrderMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/PriceRankMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/ProductMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/PublishMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/ReceiverMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/ReportMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/ReportProductsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mbg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/mybatis_config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/spring/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/spring/spring-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/Payfor.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/PayforCommit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/confirm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/emptyCar.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/forgetPassword.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/forgetPassword1.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/forgetPassword2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/forgetPassword3.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/indexSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/listBook.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/shopCart.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/up.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/userinfo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/views/viewBook.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/apply.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/easyUI/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/emptyCar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/fullCar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/newmain.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/order.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/orderSure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/css/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/dtd/mybatis-3-config.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/dtd/mybatis-3-mapper.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/js/ShopCart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/js/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/js/viewBook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/estore/user/userinfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_rabbitmq_client_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/mq/Comsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/mq/MyTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estore/mq/Productor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mq/MQConsumorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mq/MQProductTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizCreateOrderManagerImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/estore/manager/bizManager/BizCreateOrderManagerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/estore/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/CategoryServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/estore/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/estore/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/estore/utils/IDGenerater.class" afterPath="$PROJECT_DIR$/target/classes/com/estore/utils/IDGenerater.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizCreateOrderManagerImpl.class" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/manager/bizManager/BizCreateOrderManagerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/CategoryServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/IDGenerater.class" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/com/estore/utils/IDGenerater.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/estore_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/estore_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estore.iml" afterPath="$PROJECT_DIR$/estore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/estore/WEB-INF/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/target/estore/WEB-INF/classes/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/estore/index.jsp" afterPath="$PROJECT_DIR$/target/estore/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -936,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ListIdFlag</find>
       <find>targetProduct</find>
       <find>Decim</find>
       <find>price</find>
@@ -966,6 +87,7 @@
       <find>order</find>
       <find>orderId</find>
       <find>dataSource</find>
+      <find>spring-co</find>
     </findStrings>
     <replaceStrings>
       <replace>request</replace>
@@ -986,16 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateUserManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizUpdateUserManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewBook.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" />
-        <option value="$PROJECT_DIR$/src/test/service/javaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/controller/ShopCartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderLineManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/service/OrderLineService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizUpdateOrderLineManager.java" />
-        <option value="$PROJECT_DIR$/src/test/service/OrderLineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estore/dao/ReceiverMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopCart.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/estore/controller/SkipController.java" />
@@ -1019,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/test/service/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/OrderLineMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/confirm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indexSuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/estore/service/impl/OrderLineServiceImpl.java" />
@@ -1034,9 +145,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/estore/router/DBRouter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estore/router/Router.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estore/router/DBRouterInterceptor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/estore/router/DBRouterImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/product/Productor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/mq/MQProductTest.java" />
+        <option value="$PROJECT_DIR$/src/test/mq/MQConsumorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/mq/Consumor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/mq/Productor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/mq/MyTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estore/mq/Comsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -1061,12 +183,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="y" value="23" />
-    <option name="width" value="1390" />
-    <option name="height" value="877" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -1091,6 +214,57 @@
               <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
               <item name="Estore" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1107,19 +281,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java\estore\src\main\webapp" />
-      <recent name="D:\Java\estore\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.estore.manager" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.estore.manager.bizManager" />
-      <recent name="com.estore.utils" />
-      <recent name="manager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\estore\src\main\webapp\WEB-INF\views" />
@@ -1127,6 +293,15 @@
       <recent name="D:\Java\estore\src\main\webapp\product" />
       <recent name="D:\Java\estore\target\estore\images" />
       <recent name="D:\Java\estore\src\main\webapp\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.estore.manager.bizManager" />
+      <recent name="com.estore.utils" />
+      <recent name="manager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\estore\src\main\webapp" />
+      <recent name="D:\Java\estore\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1142,6 +317,34 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.estore">
+    <configuration name="MQConsumorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MQConsumorTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="estore" />
+      <envs />
+    </configuration>
+    <configuration name="MQProductTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MQProductTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="estore" />
+      <envs />
+    </configuration>
     <configuration name="MbgTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MbgTest" />
@@ -1204,26 +407,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OrderTest" />
       <option name="METHOD_NAME" value="TestCreateOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ProductServiceTest.queryProductByCatIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="estore" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductServiceTest" />
-      <option name="METHOD_NAME" value="queryProductByCatIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1503,36 +686,22 @@
         </option>
       </method>
     </configuration>
-    <configuration name="javaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="javaTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="estore" />
-      <envs />
-    </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.MbgTest" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.estore" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ProductServiceTest.queryProductByCatIdTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OrderLineTest.addOrderLine" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OrderLineTest.queryOrderLine" />
-      <item index="5" class="java.lang.String" itemvalue="Application.javaTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.OrderTest.TestCreateOrder" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OrderLineTest.addOrderLine" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OrderLineTest.queryOrderLine" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrderTest.TestCreateOrder" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MQProductTest" />
+      <item index="6" class="java.lang.String" itemvalue="Application.MQConsumorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OrderLineTest.queryOrderLine" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrderTest.TestCreateOrder" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OrderLineTest.addOrderLine" />
-        <item index="3" class="java.lang.String" itemvalue="Application.javaTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductServiceTest.queryProductByCatIdTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MQConsumorTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MQProductTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrderLineTest.queryOrderLine" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OrderTest.TestCreateOrder" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OrderLineTest.addOrderLine" />
       </list>
     </recent_temporary>
   </component>
@@ -1552,7 +721,7 @@
       <workItem from="1523698207869" duration="2673000" />
       <workItem from="1523753794502" duration="8338000" />
       <workItem from="1523861460283" duration="149223000" />
-      <workItem from="1524717488710" duration="140000" />
+      <workItem from="1524717488710" duration="9338000" />
     </task>
     <servers />
   </component>
@@ -1589,7 +758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160374000" />
+    <option name="totallyTimeSpent" value="169572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1613,21 +782,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59210527" sideWeight="0.49582383" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5914333" sideWeight="0.49582383" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5947282" sideWeight="0.49734244" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5947282" sideWeight="0.49734244" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mybatis datasource" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2558846" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2558846" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25132877" sideWeight="0.5065789" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1635,7 +805,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1710,113 +879,16 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="33" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/estoreEnum/ErrorCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/bean/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/model/OrderModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/bean/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/estoreEnum/OperateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/orderSure.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="363" column="1" lean-forward="false" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BaseManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ReceiverMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="113" column="112" lean-forward="false" selection-start-line="113" selection-start-column="112" selection-end-line="113" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/model/ReceiverResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateReceiverManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/service/impl/ReceiverServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/service/ReceiverService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Payfor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/PayforCommit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1851,17 +923,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,6 +935,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="136" column="54" lean-forward="false" selection-start-line="136" selection-start-column="54" selection-end-line="136" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1876,6 +943,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1885,13 +955,6 @@
         <state relative-caret-position="382">
           <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/model/OrderLineModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1913,6 +976,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="44" column="69" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1927,27 +993,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/controller/ShopCartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1955,6 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1962,6 +1009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
           <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1969,6 +1017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1976,6 +1025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4620">
           <caret line="216" column="163" lean-forward="false" selection-start-line="216" selection-start-column="35" selection-end-line="216" selection-end-column="163" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1996,30 +1046,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="212" column="17" lean-forward="false" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/router/DBRouter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/router/DBRouterInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/router/DBRouterImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/router/DynamicDataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/router/Router.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/service/CategoryDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/manager/BaseBizManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderLineManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="222" column="37" lean-forward="false" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/mq/Consumor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/controller/ShopCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/model/OrderModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mq/MQProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/mq/Productor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mq/MQConsumorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/model/OrderLineModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/mq/Comsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="57" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/mq/MyTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estore/manager/bizManager/BizCreateOrderManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="140" column="48" lean-forward="true" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>

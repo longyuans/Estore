@@ -136,7 +136,7 @@
             <li>
                 <div class="c3_b2_txt">
                     <h1>${product.name}</h1>
-                        <%-- <p>${product.cate_detail.name}</p>--%>
+                        <%-- <p>${mq.cate_detail.name}</p>--%>
                     <h2>畅销书籍</h2>
                     <h2>${product.explains}</h2>
                     <p>

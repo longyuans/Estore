@@ -6,6 +6,7 @@ import com.estore.dao.OrderMapper;
 import com.estore.estoreEnum.ErrorCodeEnum;
 import com.estore.model.BaseResponse;
 import com.estore.model.OrderModel;
+import com.estore.mq.Productor;
 import com.estore.utils.EstoreException;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,6 +43,10 @@ public class BizCreateOrderManagerImpl extends BaseManagerImpl<OrderModel, BaseR
             response.setErrorCode(ErrorCodeEnum.createOrderError.toString());
             throw new EstoreException(ErrorCodeEnum.createOrderError.toString(), "订单创建失败，插入数据库出错");
         }
+        Productor productor = new Productor();
+        productor.sendMessage("下单成功 下单信息resp = {}"+orderModel.toString());
+        //发送消息，下单成功
+
         return response;
     }
 
