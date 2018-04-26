@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.estore.dao.OrderLineMapper">
+  <resultMap id="BaseResultMap" type="com.estore.bean.OrderLine">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="order_id" jdbcType="INTEGER" property="orderId" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="version" jdbcType="VARCHAR" property="version" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="total_price" jdbcType="DECIMAL" property="totalPrice" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, user_id, order_id, product_id, version, amount,total_price, create_time
+  </sql>
+
+  <select id="selectAllOrderLineByUserId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from order_line
+    where user_id = #{userId,jdbcType=INTEGER}
+    AND order_id = 0
+  </select>
+  <select id="selectByProductId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from order_line
+    where product_id = #{productId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from order_line
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <update id="updateAmountByPrimaryKey">
+    UPDATE order_line
+    <set>
+      <if test="amount != null">
+        amount = #{amount,jdbcType=INTEGER},
+      </if>
+      <if test="totalPrice != null">
+        total_price = #{totalPrice,jdbcType=DECIMAL},
+      </if>
+    </set>
+    WHERE id = #{id,jdbcType=INTEGER}
+  </update>
+  <delete id="deleteOrderLine" parameterType="java.lang.Integer">
+    DELETE from order_line where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insertSelective" parameterType="com.estore.bean.OrderLine">
+    insert into order_line
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="orderId != null">
+        order_id,
+      </if>
+      <if test="productId != null">
+        product_id,
+      </if>
+      <if test="version != null">
+        version,
+      </if>
+      <if test="amount != null">
+        amount,
+      </if>
+      <if test="totalPrice != null">
+        total_price,
+      </if>
+      create_time,
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="orderId != null">
+        #{orderId,jdbcType=INTEGER},
+      </if>
+      <if test="productId != null">
+        #{productId,jdbcType=INTEGER},
+      </if>
+      <if test="version != null">
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="amount != null">
+        #{amount,jdbcType=INTEGER},
+      </if>
+      <if test="totalPrice != null">
+        #{totalPrice,jdbcType=DECIMAL},
+      </if>
+        now(),
+    </trim>
+  </insert>
+  <update id="updateOrderId" >
+    UPDATE order_line
+    <set>
+      <if test="orderId != null">
+        order_id = #{orderId,jdbcType=INTEGER},
+      </if>
+    </set>
+    WHERE id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

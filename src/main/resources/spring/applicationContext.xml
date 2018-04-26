@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+           http://www.springframework.org/schema/tx
+		   http://www.springframework.org/schema/tx/spring-tx.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+    <context:component-scan base-package="com.estore">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+	<!-- 2.数据库连接池 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<!-- 配置连接池属性 -->
+		<property name="driverClass" value="${jdbc.driver}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="user" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+
+		<!-- c3p0连接池的私有属性 -->
+		<property name="maxPoolSize" value="30" />
+		<property name="minPoolSize" value="10" />
+		<!-- 关闭连接后不自动commit -->
+		<property name="autoCommitOnClose" value="false" />
+		<!-- 获取连接超时时间 -->
+		<property name="checkoutTimeout" value="3000" />
+		<!-- 当获取连接失败重试次数 -->
+		<property name="acquireRetryAttempts" value="2" />
+	</bean>
+
+	<!-- 配置Mybatis整合 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	    <property name="configLocation" value="classpath:mybatis_config.xml" />
+	    <property name="dataSource" ref="dataSource"></property>
+	    <property name="typeAliasesPackage" value="com.estore.bean" />
+	   <property name="mapperLocations" value="classpath:mapper/*.xml" />
+	</bean>
+	
+	<!-- 配置一个可以批量生产的sqlSession -->
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+	    <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+	    <constructor-arg name="executorType" value="BATCH"/>
+	</bean>
+	
+	<!-- 配置扫描器 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+	    <!-- mybatis中别名包 -->
+	    <property name="basePackage" value="com.estore.dao"></property>
+	    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+	</bean>
+	
+	<!-- 事务控制 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	    <property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+	<!-- 开启基于注解的事务，使用xml配置形式的事务 -->
+	<aop:config>
+	    <!-- 切入点表达式 -->
+	   <aop:pointcut expression="execution(public * com.estore.service..*(..))" id="txPoint"/>
+	   <aop:advisor advice-ref="txAdvice" pointcut-ref="txPoint"/>
+	</aop:config>
+	<!-- 配置事务增强，事务如何启动 -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+	    <tx:attributes>
+	        <!-- 切入点所有方法都是事务方法 -->
+			<tx:method name="*"/>	     
+			<!-- 以get开始的所有方法 -->
+			<tx:method name="query*" read-only="true"/>
+	    </tx:attributes>
+	</tx:advice>
+	<!-- Spring配置：数据源；与mybatis整合；事务控制 -->
+	
+</beans>

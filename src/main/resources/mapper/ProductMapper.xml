@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.estore.dao.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.estore.bean.Product">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="service_fg" jdbcType="VARCHAR" property="serviceFg"/>
+    <result column="service_myf" jdbcType="VARCHAR" property="serviceMyf"/>
+    <result column="service_zt" jdbcType="VARCHAR" property="serviceZt"/>
+    <result column="service_th" jdbcType="VARCHAR" property="serviceTh"/>
+    <result column="version" jdbcType="VARCHAR" property="version" />
+    <result column="stock" jdbcType="INTEGER" property="stock" />
+    <result column="writer" jdbcType="VARCHAR" property="writer" />
+    <result column="publish_id" jdbcType="INTEGER" property="publishId" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="pages" jdbcType="INTEGER" property="pages" />
+    <result column="isbn" jdbcType="VARCHAR" property="isbn" />
+    <result column="bill" jdbcType="VARCHAR" property="bill" />
+    <result column="publish_date" jdbcType="DATE" property="publishDate" />
+    <result column="feature_images" jdbcType="VARCHAR" property="featureImages" />
+    <result column="images" jdbcType="VARCHAR" property="images" />
+    <result column="cat_detail_id" jdbcType="INTEGER" property="categoryDetailId" />
+    <result column="sale_num" jdbcType="INTEGER" property="saleNum" />
+    <result column="flag" jdbcType="VARCHAR" property="flag" />
+    <result column="explain" jdbcType="VARCHAR" property="explains" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, name, price,service_fg, service_myf, service_zt, service_th, version, stock, writer, publish_id, description, pages, isbn, bill,
+    publish_date, feature_images, images, cat_detail_id, sale_num, flag, explains
+  </sql>
+  <select id="selectByExample" parameterType="com.estore.bean.ProductExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from product
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from product
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectByFlag" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    where flag = #{flag,jdbcType=VARCHAR}
+  </select>
+  <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    where name LIKE #{name,jdbcType=VARCHAR}
+  </select>
+  <select id="selectByCatDetailId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    where cat_detail_id = #{categoryDetailId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByPublishId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    where publish_id = #{publishId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByPrice" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    ORDER BY price ASC
+  </select>
+  <select id="selectBySaleNum" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    ORDER BY sale_num DESC
+  </select>
+  <select id="selectByPriceRank"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    where price &gt; #{minPrice,jdbcType=DECIMAL}
+    AND
+           price &lt; #{maxPrice,jdbcType=DECIMAL}
+  </select>
+  <select id="selectByCatDetailIdList" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product
+    where cat_detail_id IN
+    <foreach collection="list" item="categoryDetailId" index="index" open="(" close=")" separator=",">
+      #{categoryDetailId,jdbcType=INTEGER}
+    </foreach>
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from product
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.estore.bean.ProductExample">
+    delete from product
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.estore.bean.Product">
+    insert into product (id, name, price, service_fg, service_myf, service_zt, service_th,
+      version, stock, writer, 
+      publish_id, description, pages, 
+      isbn, bill, publish_date, 
+      feature_images, images, cat_detail_id, 
+      sale_num, flag, explains
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{price,jdbcType=DECIMAL},
+      #{serviceFg,jdbcType=VARCHAR},#{serviceMyf,jdbcType=VARCHAR},#{serviceZt,jdbcType=VARCHAR},#{serviceTh,jdbcType=VARCHAR},
+      #{version,jdbcType=VARCHAR}, #{stock,jdbcType=INTEGER}, #{writer,jdbcType=VARCHAR}, 
+      #{publishId,jdbcType=INTEGER}, #{description,jdbcType=VARCHAR}, #{pages,jdbcType=INTEGER}, 
+      #{isbn,jdbcType=VARCHAR}, #{bill,jdbcType=VARCHAR}, #{publishDate,jdbcType=DATE}, 
+      #{featureImages,jdbcType=VARCHAR}, #{images,jdbcType=VARCHAR}, #{categoryDetailId,jdbcType=INTEGER}, 
+      #{saleNum,jdbcType=INTEGER}, #{flag,jdbcType=VARCHAR}, #{explains,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.estore.bean.Product">
+    insert into product
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="serviceFg != null">
+        price,
+      </if>
+      <if test="serviceMyf != null">
+        price,
+      </if>
+      <if test="serviceZt != null">
+        price,
+      </if>
+      <if test="serviceTh != null">
+        price,
+      </if>
+      <if test="version != null">
+        version,
+      </if>
+      <if test="stock != null">
+        stock,
+      </if>
+      <if test="writer != null">
+        writer,
+      </if>
+      <if test="publishId != null">
+        publish_id,
+      </if>
+      <if test="description != null">
+        description,
+      </if>
+      <if test="pages != null">
+        pages,
+      </if>
+      <if test="isbn != null">
+        isbn,
+      </if>
+      <if test="bill != null">
+        bill,
+      </if>
+      <if test="publishDate != null">
+        publish_date,
+      </if>
+      <if test="featureImages != null">
+        feature_images,
+      </if>
+      <if test="images != null">
+        images,
+      </if>
+      <if test="categoryDetailId != null">
+        cat_detail_id,
+      </if>
+      <if test="saleNum != null">
+        sale_num,
+      </if>
+      <if test="flag != null">
+        flag,
+      </if>
+      <if test="explains != null">
+        explains,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="serviceFg != null">
+        #{serviceFg,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceMyf != null">
+        #{serviceMyf,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceZt != null">
+        #{serviceZt,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceTh != null">
+        #{serviceTh,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null">
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="stock != null">
+        #{stock,jdbcType=INTEGER},
+      </if>
+      <if test="writer != null">
+        #{writer,jdbcType=VARCHAR},
+      </if>
+      <if test="publishId != null">
+        #{publishId,jdbcType=INTEGER},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="pages != null">
+        #{pages,jdbcType=INTEGER},
+      </if>
+      <if test="isbn != null">
+        #{isbn,jdbcType=VARCHAR},
+      </if>
+      <if test="bill != null">
+        #{bill,jdbcType=VARCHAR},
+      </if>
+      <if test="publishDate != null">
+        #{publishDate,jdbcType=DATE},
+      </if>
+      <if test="featureImages != null">
+        #{featureImages,jdbcType=VARCHAR},
+      </if>
+      <if test="images != null">
+        #{images,jdbcType=VARCHAR},
+      </if>
+      <if test="categoryDetailId != null">
+        #{categoryDetailId,jdbcType=INTEGER},
+      </if>
+      <if test="saleNum != null">
+        #{saleNum,jdbcType=INTEGER},
+      </if>
+      <if test="flag != null">
+        #{flag,jdbcType=VARCHAR},
+      </if>
+      <if test="explains != null">
+        #{explains,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.estore.bean.ProductExample" resultType="java.lang.Long">
+    select count(*) from product
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update product
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.name != null">
+        name = #{record.name,jdbcType=VARCHAR},
+      </if>
+      <if test="record.price != null">
+        price = #{record.price,jdbcType=DECIMAL},
+      </if>
+      <if test="record.serviceFg != null">
+        service_fg = #{record.serviceFg,jdbcType=VARCHAR},
+      </if>
+      <if test="record.serviceMyf != null">
+        service_myf = #{record.ServiceMyf,jdbcType=VARCHAR},
+      </if>
+      <if test="record.serviceZt != null">
+        service_zt = #{record.serviceZt,jdbcType=VARCHAR},
+      </if>
+      <if test="record.serviceTh != null">
+        service_th = #{record.serviceTh,jdbcType=VARCHAR},
+      </if>
+      <if test="record.version != null">
+        version = #{record.version,jdbcType=VARCHAR},
+      </if>
+      <if test="record.stock != null">
+        stock = #{record.stock,jdbcType=INTEGER},
+      </if>
+      <if test="record.writer != null">
+        writer = #{record.writer,jdbcType=VARCHAR},
+      </if>
+      <if test="record.publishId != null">
+        publish_id = #{record.publishId,jdbcType=INTEGER},
+      </if>
+      <if test="record.description != null">
+        description = #{record.description,jdbcType=VARCHAR},
+      </if>
+      <if test="record.pages != null">
+        pages = #{record.pages,jdbcType=INTEGER},
+      </if>
+      <if test="record.isbn != null">
+        isbn = #{record.isbn,jdbcType=VARCHAR},
+      </if>
+      <if test="record.bill != null">
+        bill = #{record.bill,jdbcType=VARCHAR},
+      </if>
+      <if test="record.publishDate != null">
+        publish_date = #{record.publishDate,jdbcType=DATE},
+      </if>
+      <if test="record.featureImages != null">
+        feature_images = #{record.featureImages,jdbcType=VARCHAR},
+      </if>
+      <if test="record.images != null">
+        images = #{record.images,jdbcType=VARCHAR},
+      </if>
+      <if test="record.categoryDetailId != null">
+        cat_detail_id = #{record.categoryDetailId,jdbcType=INTEGER},
+      </if>
+      <if test="record.saleNum != null">
+        sale_num = #{record.saleNum,jdbcType=INTEGER},
+      </if>
+      <if test="record.flag != null">
+        flag = #{record.flag,jdbcType=VARCHAR},
+      </if>
+      <if test="record.explains != null">
+        explains = #{record.explains,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update product
+    set id = #{record.id,jdbcType=INTEGER},
+      name = #{record.name,jdbcType=VARCHAR},
+      price = #{record.price,jdbcType=DECIMAL},
+      service_fg = #{record.serviceFg,jdbcType=VARCHAR},
+      service_myf = #{record.serviceMyf,jdbcType=VARCHAR},
+      service_zt = #{record.serviceZt,jdbcType=VARCHAR},
+      service_th = #{record.serviceTh,jdbcType=VARCHAR},
+      version = #{record.version,jdbcType=VARCHAR},
+      stock = #{record.stock,jdbcType=INTEGER},
+      writer = #{record.writer,jdbcType=VARCHAR},
+      publish_id = #{record.publishId,jdbcType=INTEGER},
+      description = #{record.description,jdbcType=VARCHAR},
+      pages = #{record.pages,jdbcType=INTEGER},
+      isbn = #{record.isbn,jdbcType=VARCHAR},
+      bill = #{record.bill,jdbcType=VARCHAR},
+      publish_date = #{record.publishDate,jdbcType=DATE},
+      feature_images = #{record.featureImages,jdbcType=VARCHAR},
+      images = #{record.images,jdbcType=VARCHAR},
+      cat_detail_id = #{record.categoryDetailId,jdbcType=INTEGER},
+      sale_num = #{record.saleNum,jdbcType=INTEGER},
+      flag = #{record.flag,jdbcType=VARCHAR},
+      explains = #{record.explains,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.estore.bean.Product">
+    update product
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="serviceFg != null">
+        service_fg = #{serviceFg,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceMyf != null">
+        service_myf = #{ServiceMyf,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceZt != null">
+        service_zt = #{serviceZt,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceTh != null">
+        service_th = #{serviceTh,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null">
+        version = #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="stock != null">
+        stock = #{stock,jdbcType=INTEGER},
+      </if>
+      <if test="writer != null">
+        writer = #{writer,jdbcType=VARCHAR},
+      </if>
+      <if test="publishId != null">
+        publish_id = #{publishId,jdbcType=INTEGER},
+      </if>
+      <if test="description != null">
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="pages != null">
+        pages = #{pages,jdbcType=INTEGER},
+      </if>
+      <if test="isbn != null">
+        isbn = #{isbn,jdbcType=VARCHAR},
+      </if>
+      <if test="bill != null">
+        bill = #{bill,jdbcType=VARCHAR},
+      </if>
+      <if test="publishDate != null">
+        publish_date = #{publishDate,jdbcType=DATE},
+      </if>
+      <if test="featureImages != null">
+        feature_images = #{featureImages,jdbcType=VARCHAR},
+      </if>
+      <if test="images != null">
+        images = #{images,jdbcType=VARCHAR},
+      </if>
+      <if test="categoryDetailId != null">
+        cat_detail_id = #{categoryDetailId,jdbcType=INTEGER},
+      </if>
+      <if test="saleNum != null">
+        sale_num = #{saleNum,jdbcType=INTEGER},
+      </if>
+      <if test="flag != null">
+        flag = #{flag,jdbcType=VARCHAR},
+      </if>
+      <if test="explains != null">
+        explains = #{explains,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.estore.bean.Product">
+    update product
+    set name = #{name,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DECIMAL},
+      service_fg = #{serviceFg,jdbcType=VARCHAR},
+      service_myf = #{ServiceMyf,jdbcType=VARCHAR},
+      service_zt = #{serviceZt,jdbcType=VARCHAR},
+      service_th = #{serviceTh,jdbcType=VARCHAR},
+      version = #{version,jdbcType=VARCHAR},
+      stock = #{stock,jdbcType=INTEGER},
+      writer = #{writer,jdbcType=VARCHAR},
+      publish_id = #{publishId,jdbcType=INTEGER},
+      description = #{description,jdbcType=VARCHAR},
+      pages = #{pages,jdbcType=INTEGER},
+      isbn = #{isbn,jdbcType=VARCHAR},
+      bill = #{bill,jdbcType=VARCHAR},
+      publish_date = #{publishDate,jdbcType=DATE},
+      feature_images = #{featureImages,jdbcType=VARCHAR},
+      images = #{images,jdbcType=VARCHAR},
+      cat_detail_id = #{categoryDetailId,jdbcType=INTEGER},
+      sale_num = #{saleNum,jdbcType=INTEGER},
+      flag = #{flag,jdbcType=VARCHAR},
+      explains = #{explains,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
