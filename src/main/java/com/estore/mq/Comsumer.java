@@ -1,50 +1,51 @@
-//package com.estore.mq;
-//
-//import com.rabbitmq.client.Channel;
-//import com.rabbitmq.client.Connection;
-//import com.rabbitmq.client.ConnectionFactory;
-//import com.rabbitmq.client.QueueingConsumer;
-//import org.springframework.beans.factory.InitializingBean;
-//import org.springframework.scheduling.annotation.Scheduled;
-//
-//import java.io.IOException;
-//import java.util.concurrent.TimeoutException;
-//
-///**
-// * 消费者系统
-// * 启动一个定时任务，没10分钟执行一次
-// */
-//public class Comsumer implements InitializingBean{
-//
-//    @Override
-//    public void afterPropertiesSet() throws Exception {
-//        receive();
-//    }
-//
-//    private final static String QUEUE_NAME = "EstoreQueue";
-//
-//    @Scheduled(cron="0 */1 *  * * ? ")   //每1分钟执行一次
-//    private static void receive() throws IOException, TimeoutException, InterruptedException {
-//        //1.创建一个ConnectionFactory连接工厂connectionFactory
-//        ConnectionFactory connectionFactory = new ConnectionFactory();
-//        //2.通过connectionFactory设置RabbitMQ所在IP等信息
-//        connectionFactory.setHost("localhost");
-//        //3.通过connectionFactory创建一个连接connection
-//        Connection connection = connectionFactory.newConnection();
-//        //4.通过connection创建一个频道channel
-//        Channel channel = connection.createChannel();
-//        //5.通过channel指定队列
-//        channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-//        //与发送消息不同的地方
-//        //6.创建一个消费者队列consumer,并指定channel
-//        QueueingConsumer consumer = new QueueingConsumer(channel);
-//        //7.为channel指定消费者
-//        channel.basicConsume(QUEUE_NAME, true, consumer);
-//        while (true) {
-//            //从consumer中获取队列中的消息,nextDelivery是一个阻塞方法,如果队列中无内容,则等待
-//            QueueingConsumer.Delivery delivery = consumer.nextDelivery();
-//            String message = new String(delivery.getBody());
-//            System.out.println("接收到了" + QUEUE_NAME + "中的消息:" + message);
-//        }
-//    }
-//}
+package com.estore.mq;
+
+import java.io.ByteArrayInputStream;
+import java.io.ObjectInputStream;
+import java.util.Arrays;
+
+import javax.annotation.Resource;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.core.MessageListener;
+import org.springframework.amqp.core.MessageProperties;
+import org.springframework.amqp.support.converter.MessageConverter;
+import org.springframework.amqp.support.converter.SimpleMessageConverter;
+
+/**
+ * 消费者系统
+ * 观察者模式
+ */
+public class Comsumer implements MessageListener {
+
+    private Logger logger = LoggerFactory.getLogger(Comsumer.class);
+    @Resource
+    private AmqpTemplate amqpTemplate;
+
+    @Override
+    public void onMessage(Message message) {
+        logger.info("receive message:{}",message);
+        try {
+            //将字节流对象转换成Java对象
+/*            Object o = new ObjectInputStream(new ByteArrayInputStream(message.getBody())).readObject();
+            System.out.println(o);*/
+            logger.info("onMessage.message",message);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+/*       String replyTo = message.getMessageProperties().getReplyTo();
+        MessageConverter messageConverter = new SimpleMessageConverter();
+
+        MessageProperties messageProperties = new MessageProperties();
+        messageProperties.getHeaders().putAll(message.getMessageProperties().getHeaders());
+
+        String response = "收到返回消息";
+        //将Java对象转成Message对象，并作为返回的内容，回送给生产者
+        Message message2 = messageConverter.toMessage(response, messageProperties);
+        amqpTemplate.send(replyTo, message2);*/
+
+    }
+}

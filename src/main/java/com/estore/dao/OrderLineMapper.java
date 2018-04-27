@@ -17,7 +17,7 @@ public interface OrderLineMapper {
 
     int updateAmountByPrimaryKey(@Param("totalPrice") BigDecimal totalPrice,@Param("amount") Integer amount, @Param("id") Integer id);
 
-    OrderLine selectByProductId(@Param("productId") Integer productId);
+    OrderLine selectByProductId(@Param("productId") Integer productId,@Param("userId") Integer userId);
 
     int deleteOrderLine(@Param("id") Integer id);
 

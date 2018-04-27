@@ -8,10 +8,6 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-/**
- * 生产者类，mq中的channel,发送信息
- * 功能概要：消息产生，提交到队列中去
- */
 
 public class Productor {
 

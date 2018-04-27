@@ -20,7 +20,7 @@ public class UserServiceTest {
         User user = new User();
         user.setOperate(OperateEnum.createUser.toString());
         user.setSourceId((int)(Math.random()*10000)+"");
-        user.setName("zhangsan2");
+        user.setName("赵六2");
         user.setPassword("1234");
         BaseResponse response = userService.createUser(user);
         System.out.println(response);

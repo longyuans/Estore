@@ -20,6 +20,9 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
+    <!--引入mq的配置-->
+    <import resource="classpath:RabbitMQ.xml" />
+
     <!-- 构建一个定时器专门，模拟mq 的调用服务 -->
     <task:annotation-driven/>
 
