@@ -22,7 +22,7 @@ public class CategoryDetailServiceImpl implements CategoryDetailService{
     @Override
     public CategoryDetail queryCategoryDetailById(Integer id) throws EstoreException {
 
-        if(StringUtils.isEmpty(RedisUtils.get("CategoryDetail"))){
+        if(StringUtils.isEmpty(jedisCluster.get("CategoryDetail"))){
             CategoryDetail categoryDetail = categoryDetailMapper.selectByPrimaryKey(id);
             jedisCluster.set("CategoryDetail", JSONObject.toJSONString(categoryDetail));
             return categoryDetail;
