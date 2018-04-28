@@ -2,8 +2,10 @@ package com.estore.manager.bizManager;
 
 import com.estore.bean.User;
 import com.estore.dao.UserMapper;
+import com.estore.estoreEnum.DataSourceEnum;
 import com.estore.estoreEnum.ErrorCodeEnum;
 import com.estore.model.BaseResponse;
+import com.estore.mysqlRouter.DataSourceHolder;
 import com.estore.utils.EstoreException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +19,7 @@ public class BizCreateUserManagerImpl extends BaseManagerImpl<User,BaseResponse>
 
     @Override
     protected BaseResponse doProcess(User user) throws Exception {
+        DataSourceHolder.setDataSources(DataSourceEnum.ds2.getKey());
         BaseResponse response = new BaseResponse();
         if (null == user) {
             response.setErrorCode(ErrorCodeEnum.createUserParamError.toString());

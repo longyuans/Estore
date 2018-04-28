@@ -7,7 +7,6 @@ import com.estore.model.BaseResponse;
 import com.estore.utils.EstoreException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 @Service("bizUpdateUserManager")
 public class BizUpdateUserManagerImpl extends BaseManagerImpl<User,BaseResponse> {

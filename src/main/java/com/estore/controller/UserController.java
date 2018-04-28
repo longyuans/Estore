@@ -2,6 +2,7 @@ package com.estore.controller;
 
 import com.estore.bean.User;
 import com.estore.estoreEnum.OperateEnum;
+import com.estore.mysqlRouter.DataSourceExchange;
 import com.estore.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,8 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+    @Autowired
+    private DataSourceExchange dataSourceExchange;
 
     @RequestMapping(value = "RegistServlet", method = RequestMethod.POST)
     //@ResponseBody
@@ -47,12 +50,12 @@ public class UserController {
             out.write("<script> alert('congratulations,register success')</script>");
             System.out.println("UserController.registerUser = {} 注册成功===============================");
             //flush后才能输出弹框，但是同时resp关闭，无法完成跳转了
-            resp.sendRedirect("login");
+            resp.sendRedirect("/estore/skipToLogin");
             out.flush();
         } catch (Exception e) {
             e.printStackTrace();
             out.write("<script> alert('sorry,this userName has been registered  ')</script>");
-            resp.sendRedirect("register");
+            resp.sendRedirect("/estore/skipToRegister");
             out.flush();
         } finally {
             out.close();
@@ -68,6 +71,9 @@ public class UserController {
         String password = req.getParameter("password");
         System.out.println("UserController.userLogin = {} name:" + name + " --- password:" + password);
         try {
+            //设置选择数据源的参数
+            dataSourceExchange.setUserName(name);
+
             //query user from db
             User user = userService.queryUserByName(name);
 
