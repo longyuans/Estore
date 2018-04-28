@@ -19,8 +19,9 @@ public class UserServiceTest {
     public void testCreate() throws Exception {
         User user = new User();
         user.setOperate(OperateEnum.createUser.toString());
+        //模拟
         user.setSourceId((int)(Math.random()*10000)+"");
-        user.setName("赵六2");
+        user.setName("abcg");
         user.setPassword("1234");
         BaseResponse response = userService.createUser(user);
         System.out.println(response);

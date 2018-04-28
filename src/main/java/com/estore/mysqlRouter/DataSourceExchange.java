@@ -10,6 +10,9 @@ import org.slf4j.LoggerFactory;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 
+/**
+ * 切面类，目前还只切serviceImpl;在userService的createUser中有手动setDataSource测试。
+ */
 public class DataSourceExchange {
 
     private String UserName;
@@ -17,13 +20,14 @@ public class DataSourceExchange {
 
     public void before(JoinPoint point) {
 
-        //获取目标对象的类类型
+     /*   //获取目标对象的类类型，
         String name = null;
         Class<?> clazz = null;
         try {
             clazz = Class.forName("com.estore.service.impl.UserServiceImpl");
             //获取本类的所有方法，存放入数组
             Method[] methods = clazz.getDeclaredMethods();
+
             for (Method method : methods) {
                 if (StringUtils.equals("queryUserByName", method.getName())) {
                     //获取本方法所有参数类型，存入数组
@@ -44,7 +48,7 @@ public class DataSourceExchange {
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     public String getUserName() {
