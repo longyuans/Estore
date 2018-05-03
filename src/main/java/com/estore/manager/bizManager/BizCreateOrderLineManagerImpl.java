@@ -7,6 +7,7 @@ import com.estore.dao.UserMapper;
 import com.estore.estoreEnum.ErrorCodeEnum;
 import com.estore.model.BaseResponse;
 import com.estore.model.OrderLineModel;
+import com.estore.mq.Productor;
 import com.estore.utils.EstoreException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,9 @@ public class BizCreateOrderLineManagerImpl extends BaseManagerImpl<OrderLineMode
             response.setErrorCode(ErrorCodeEnum.orderLineCreateError.toString());
             throw new EstoreException("4002", "购物项添加创建失败,数量参数出错,");
         }
-        OrderLine orderLine = orderLineMapper.selectByProductId(orderLineModel.getProduct().getId());
+        OrderLine orderLine = orderLineMapper.selectByProductId(orderLineModel.getProduct().getId(),orderLineModel.getUser().getId());
+/*        Productor productor = new Productor();
+        productor.sendMessage("加入购物车成功 购物项信息resp = {}"+orderLine.toString());*/
         int count;
         if (null != orderLine){
             //说明该产品已经添加过，现在只修改其数量,总金额即可

@@ -2,8 +2,10 @@ package com.estore.manager.bizManager;
 
 import com.estore.bean.User;
 import com.estore.dao.UserMapper;
+import com.estore.estoreEnum.DataSourceEnum;
 import com.estore.estoreEnum.ErrorCodeEnum;
 import com.estore.model.BaseResponse;
+import com.estore.mysqlRouter.DataSourceHolder;
 import com.estore.utils.EstoreException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -37,7 +37,7 @@ public class MyTask {
             //从consumer中获取队列中的消息,nextDelivery是一个阻塞方法,如果队列中无内容,则等待
             QueueingConsumer.Delivery delivery = consumer.nextDelivery();
             String message = new String(delivery.getBody());
-            System.out.println("接收到了" + QUEUE_NAME + "中的消息:" + message);
+            System.out.println("MyTask.receive接收到了" + QUEUE_NAME + "中的消息:" + message);
         }
     }
 }
