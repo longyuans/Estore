@@ -1,7 +1,7 @@
 package com.estore.mysqlRouter;
 
 /**
- * DynamicDataSourceHolder用于持有当前线程中使用的数据源标识
+ * DynamicDataSourceHolder用于存储当前线程中使用的数据源
  */
 public class DataSourceHolder {
 

@@ -17,6 +17,5 @@ public class MbgTest {
 		   DefaultShellCallback callback = new DefaultShellCallback(overwrite);
 		   MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
 		   myBatisGenerator.generate(null);
-
 	}
 }

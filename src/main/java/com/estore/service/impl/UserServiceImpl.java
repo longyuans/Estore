@@ -2,9 +2,11 @@ package com.estore.service.impl;
 
 import com.estore.bean.User;
 import com.estore.dao.UserMapper;
+import com.estore.estoreEnum.DataSourceEnum;
 import com.estore.estoreEnum.ErrorCodeEnum;
 import com.estore.manager.BaseBizManager;
 import com.estore.model.BaseResponse;
+import com.estore.mysqlRouter.DataSourceHolder;
 import com.estore.service.UserService;
 import com.estore.utils.EstoreException;
 import org.apache.commons.lang3.StringUtils;
@@ -27,6 +29,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public BaseResponse createUser(User user) throws Exception {
+        DataSourceHolder.setDataSources(DataSourceEnum.ds2.getKey());
         return bizCreateUserManager.process(user);
     }
 

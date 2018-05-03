@@ -19,7 +19,6 @@ public class BizCreateUserManagerImpl extends BaseManagerImpl<User,BaseResponse>
 
     @Override
     protected BaseResponse doProcess(User user) throws Exception {
-        DataSourceHolder.setDataSources(DataSourceEnum.ds2.getKey());
         BaseResponse response = new BaseResponse();
         if (null == user) {
             response.setErrorCode(ErrorCodeEnum.createUserParamError.toString());

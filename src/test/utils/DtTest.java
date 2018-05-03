@@ -4,9 +4,6 @@ import com.estore.utils.DbLocakUtils;
 import redis.clients.jedis.JedisPool;
         import redis.clients.jedis.JedisPoolConfig;
 
-/**
- * Created by liuyang on 2017/4/20.
- */
 
 public class DtTest {
     public static void main(String[] args) {
